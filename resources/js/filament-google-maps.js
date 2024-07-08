@@ -192,6 +192,9 @@ export default function filamentGoogleMapsField({
         "formatted_address",
         "geometry",
         "name",
+        "place_id",
+        "formatted_phone_number",
+        "website", 
       ];
 
       if (!this.placeFields.includes(placeField)) {

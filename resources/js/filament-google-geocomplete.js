@@ -79,6 +79,9 @@ export default function filamentGoogleGeocomplete({
         "formatted_address",
         "geometry",
         "name",
+        "place_id",
+        "formatted_phone_number",
+        "website",
       ];
 
       if (!fields.includes(placeField)) {
